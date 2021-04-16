@@ -1,0 +1,1692 @@
+fileFormatVersion: 2
+guid: 4c2a82ddb219b7443aa4b1fd9aa40fd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5809952334040510845
+    second: ExpressoRun1
+  - first:
+      213: 8791162895031160943
+    second: ExpressoRun2
+  - first:
+      213: -1241073860850561803
+    second: ExpressoRun3
+  - first:
+      213: -3216182825087743319
+    second: ExpressoRun4
+  - first:
+      213: -5228793513582256647
+    second: ExpressoRun5
+  - first:
+      213: 6870117414609314475
+    second: ExpressoRun6
+  - first:
+      213: 3993547718432235229
+    second: SNES - Donkey Kong Country - Expresso2_6
+  - first:
+      213: -7863310476731476788
+    second: ExpressoRun7
+  - first:
+      213: 533825445299624158
+    second: ExpressoRun8
+  - first:
+      213: -5795021892489622426
+    second: ExpressoRun9
+  - first:
+      213: 6771822007629243673
+    second: ExpressoRun10
+  - first:
+      213: -3887137454987249142
+    second: ExpressoRun11
+  - first:
+      213: -3679238611963980962
+    second: ExpressoRun12
+  - first:
+      213: 8427881870835699754
+    second: ExpressoRun13
+  - first:
+      213: -3410715163825539346
+    second: ExpressoRun14
+  - first:
+      213: 4170222609144045887
+    second: ExpressoAtk1
+  - first:
+      213: 616205604356641480
+    second: ExpressoAtk2
+  - first:
+      213: 1286364346240730842
+    second: ExpressoAtk3
+  - first:
+      213: 4904747282571045090
+    second: ExpressoAtk4
+  - first:
+      213: 2835129050169809902
+    second: ExpressoAtk5
+  - first:
+      213: -91680790941528138
+    second: ExpressoAtk6
+  - first:
+      213: -7301716161606684760
+    second: ExpressoAtk7
+  - first:
+      213: 8815002675519599735
+    second: ExpressoAtk8
+  - first:
+      213: -1708791120429552744
+    second: ExpressoAtk9
+  - first:
+      213: 8214301498787327410
+    second: ExpressoAtk10
+  - first:
+      213: -528690162309631183
+    second: ExpressoRide1
+  - first:
+      213: 4883788051191343737
+    second: ExpressoBox
+  - first:
+      213: -1231019518913360051
+    second: ExpressoGold
+  - first:
+      213: -4641182776026648782
+    second: ExpressoIdle1
+  - first:
+      213: -5988412036362074389
+    second: ExpressoIdle2
+  - first:
+      213: -6156135087534736107
+    second: ExpressoIdle3
+  - first:
+      213: -7564832715206875348
+    second: ExpressoIdle4
+  - first:
+      213: 6373622893297127855
+    second: ExpressoIdle5
+  - first:
+      213: -858254018705316289
+    second: ExpressoIdle6
+  - first:
+      213: 2598762496257261783
+    second: ExpressoIdle7
+  - first:
+      213: -4746970502707938335
+    second: ExpressoIdle8
+  - first:
+      213: 1559639567545018719
+    second: ExpressoIdle9
+  - first:
+      213: -2683476446926236623
+    second: ExpressoIdle10
+  - first:
+      213: -8652396427329620951
+    second: ExpressoIdle11
+  - first:
+      213: 2063695483373057741
+    second: ExpressoIdle12
+  - first:
+      213: -3300227006050823392
+    second: ExpressoIdle13
+  - first:
+      213: 3352184734129707529
+    second: ExpressoIdle14
+  - first:
+      213: -2207949638763524657
+    second: ExpressoIdle15
+  - first:
+      213: -847688853740183353
+    second: ExpressoIdle16
+  - first:
+      213: 5201054134629512719
+    second: ExpressoIdle17
+  - first:
+      213: 5842106224473280587
+    second: ExpressoIdle18
+  - first:
+      213: -5794674231113613467
+    second: ExpressoIdle19
+  - first:
+      213: -5910190019488352410
+    second: ExpressoWalk1
+  - first:
+      213: -8274343870294654627
+    second: ExpressoWalk2
+  - first:
+      213: 3503245629115501308
+    second: ExpressoWalk3
+  - first:
+      213: 5504956946052320956
+    second: ExpressoWalk4
+  - first:
+      213: -8697008670221486162
+    second: ExpressoWalk5
+  - first:
+      213: 7441674529391805261
+    second: ExpressoWalk6
+  - first:
+      213: -795624846577106181
+    second: ExpressoWalk7
+  - first:
+      213: -5496912080153459084
+    second: ExpressoWalk8
+  - first:
+      213: -141239870192740282
+    second: ExpressoWalk9
+  - first:
+      213: 4531391186034922031
+    second: ExpressoWalk10
+  - first:
+      213: 65653478014244220
+    second: ExpressoWalk11
+  - first:
+      213: 3236051849484421386
+    second: ExpressoWalk12
+  - first:
+      213: 6920941574114797678
+    second: ExpressoWalk13
+  - first:
+      213: 4855177868172628948
+    second: ExpressoWalk14
+  - first:
+      213: -186062502454003299
+    second: ExpressoWalk15
+  - first:
+      213: -3865335268594197472
+    second: ExpressoWalk16
+  - first:
+      213: -2860937440483483899
+    second: ExpressoWalk17
+  - first:
+      213: 8509959557712008183
+    second: ExpressoWalk18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExpressoRun1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 282
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e40977227ee5fa0800000000000000
+      internalID: -5809952334040510845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 277
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f605de0531c700a70800000000000000
+      internalID: 8791162895031160943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 272
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fccaf726e1d6cee0800000000000000
+      internalID: -1241073860850561803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 271
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aacee9b2c2dd53d0800000000000000
+      internalID: -3216182825087743319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 271
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd1013b0089f67b0800000000000000
+      internalID: -5228793513582256647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 270
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2630f936f875f50800000000000000
+      internalID: 6870117414609314475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Donkey Kong Country - Expresso2_6
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 270
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde99bebd7eeb6730800000000000000
+      internalID: 3993547718432235229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 276
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc410d378c8efd290800000000000000
+      internalID: -7863310476731476788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun8
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 268
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed816270a67886700800000000000000
+      internalID: 533825445299624158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun9
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 266
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c4b88ca42f39fa0800000000000000
+      internalID: -5795021892489622426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun10
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 264
+        width: 67
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915e9eebc385afd50800000000000000
+      internalID: 6771822007629243673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun11
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 264
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a7e52641d1e0ac0800000000000000
+      internalID: -3887137454987249142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun12
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 261
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e535cf1d9f7b0fcc0800000000000000
+      internalID: -3679238611963980962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun13
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 260
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20dd10a8e9d5f470800000000000000
+      internalID: 8427881870835699754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRun14
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 258
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6f32611a4baa0d0800000000000000
+      internalID: -3410715163825539346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoAtk1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 190
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3165544e5b9fd930800000000000000
+      internalID: 4170222609144045887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoAtk2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 190
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2584c7bb33d8800800000000000000
+      internalID: 616205604356641480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoAtk3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 190
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad60865be851ad110800000000000000
+      internalID: 1286364346240730842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoAtk4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 190
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8a5b2caa9211440800000000000000
+      internalID: 4904747282571045090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoAtk5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 190
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb13c799d6685720800000000000000
+      internalID: 2835129050169809902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoAtk6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 184
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf043f6ec84abef0800000000000000
+      internalID: -91680790941528138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoAtk7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 188
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af64b056d71baa90800000000000000
+      internalID: -7301716161606684760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoAtk8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 193
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774b670ca3e255a70800000000000000
+      internalID: 8815002675519599735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoAtk9
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 187
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b647f87872948e0800000000000000
+      internalID: -1708791120429552744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoAtk10
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 184
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd6d2121bf0ff170800000000000000
+      internalID: 8214301498787327410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoRide1
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 181
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1337a473917b9a8f0800000000000000
+      internalID: -528690162309631183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoBox
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 182
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97aae8d6b53b6c340800000000000000
+      internalID: 4883788051191343737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoGold
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 172
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fc89f054a8aeee0800000000000000
+      internalID: -1231019518913360051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 102
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f2541fad4379fb0800000000000000
+      internalID: -4641182776026648782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 103
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be607fb1bf2e4eca0800000000000000
+      internalID: -5988412036362074389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 103
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d7c2621c3019aa0800000000000000
+      internalID: -6156135087534736107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 103
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2727d8c9b0540790800000000000000
+      internalID: -7564832715206875348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 103
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1d547a048a37850800000000000000
+      internalID: 6373622893297127855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 100
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36a408648ed614f0800000000000000
+      internalID: -858254018705316289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 103
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d08505b8b8a01420800000000000000
+      internalID: 2598762496257261783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle8
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 100
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebf5d27a7f5f1eb0800000000000000
+      internalID: -4746970502707938335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle9
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 103
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f592a216ce3f4a510800000000000000
+      internalID: 1559639567545018719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle10
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 103
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13495d1a36062cad0800000000000000
+      internalID: -2683476446926236623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle11
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 103
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924b82daa438ce780800000000000000
+      internalID: -8652396427329620951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle12
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 103
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc67703bb18b3ac10800000000000000
+      internalID: 2063695483373057741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle13
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 104
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023903af50d3332d0800000000000000
+      internalID: -3300227006050823392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle14
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 103
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ad94b414a558e20800000000000000
+      internalID: 3352184734129707529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle15
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 103
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd4c837089cb51e0800000000000000
+      internalID: -2207949638763524657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle16
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 103
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c022c09a776c34f0800000000000000
+      internalID: -847688853740183353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle17
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 103
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f063b28dd2bdd2840800000000000000
+      internalID: 5201054134629512719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle18
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 103
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4014d988a4531150800000000000000
+      internalID: 5842106224473280587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoIdle19
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 104
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ffc510d7e259fa0800000000000000
+      internalID: -5794674231113613467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 27
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6677655ad79cafda0800000000000000
+      internalID: -5910190019488352410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 27
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5108add610ab2d80800000000000000
+      internalID: -8274343870294654627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 23
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa8e54b6570e9030800000000000000
+      internalID: 3503245629115501308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 23
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe84490d29856c40800000000000000
+      internalID: 5504956946052320956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk5
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 17
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7b4f271b40e4780800000000000000
+      internalID: -8697008670221486162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk6
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 15
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43887a8e83264760800000000000000
+      internalID: 7441674529391805261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 12
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf20c4dda6f55f4f0800000000000000
+      internalID: -795624846577106181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk8
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 12
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47646e4469b07b3b0800000000000000
+      internalID: -5496912080153459084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk9
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 11
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6481a0d16173a0ef0800000000000000
+      internalID: -141239870192740282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk10
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 12
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2292fd764cb2ee30800000000000000
+      internalID: 4531391186034922031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk11
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 13
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75de4b8d7f39e000800000000000000
+      internalID: 65653478014244220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk12
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 13
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09c3430304c8ec20800000000000000
+      internalID: 3236051849484421386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk13
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 9
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68685461bf1c0060800000000000000
+      internalID: 6920941574114797678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk14
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 10
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d394c91c8e016340800000000000000
+      internalID: 4855177868172628948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk15
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 9
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99753bc329fa6df0800000000000000
+      internalID: -186062502454003299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk16
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 8
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c57a97d029b5ac0800000000000000
+      internalID: -3865335268594197472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk17
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 6
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fdd574e88eb48d0800000000000000
+      internalID: -2860937440483483899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExpressoWalk18
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 5
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f35d5a4123791670800000000000000
+      internalID: 8509959557712008183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
