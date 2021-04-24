@@ -1,6 +1,8 @@
-//
-//
-//
+//enemyHealth
+//By: Lex King
+//Basic Enemy Health system.
+//=============//
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
