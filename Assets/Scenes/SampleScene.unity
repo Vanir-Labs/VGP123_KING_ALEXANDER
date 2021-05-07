@@ -4494,7 +4494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpForce: 320
-  isGrounded: 0
+  isGrounded: 1
   isGroundedLayer:
     serializedVersion: 2
     m_Bits: 8

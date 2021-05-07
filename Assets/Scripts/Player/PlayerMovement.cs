@@ -95,14 +95,14 @@ public class PlayerMovement : MonoBehaviour
     void Walking()
     {
         if (Input.GetKeyDown(KeyCode.D) || (Input.GetKeyDown(KeyCode.A)))
-            anim.SetBool("m_FaceRight", Player.flipX);
+            anim.SetBool("isWalking", Player.flipX);
             anim.Play("run");
     }
-
-/*    private void FirePoint()
+    /*
+    void FirePoints()
     {
         FirePoint.flipX = !FirePoint.flipX;
         transform.Rotate(0f, 180f, 0f);
     }
-*/
+    */
 }
