@@ -10,6 +10,8 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour
 {
     public Animator anim;
+    private bool Shoot;
+
     // Use this for initialization
     void Start()
     {
@@ -23,6 +25,6 @@ public class PlayerAnimation : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) || (Input.GetKeyDown(KeyCode.LeftControl)))
-            anim.Play("isShooting");
+            anim.Play("Shoot");
     }
 }

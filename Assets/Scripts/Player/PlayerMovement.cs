@@ -89,6 +89,20 @@ public class PlayerMovement : MonoBehaviour
         //Flip character on left/rights
         if (Player.flipX && horizontalInput > 0 || !Player.flipX && horizontalInput < 0)
         Player.flipX = !Player.flipX;
-        
+        //transform.Rotate(0f, 180f, 0f);
+
     }
+    void Walking()
+    {
+        if (Input.GetKeyDown(KeyCode.D) || (Input.GetKeyDown(KeyCode.A)))
+            anim.SetBool("m_FaceRight", Player.flipX);
+            anim.Play("run");
+    }
+
+/*    private void FirePoint()
+    {
+        FirePoint.flipX = !FirePoint.flipX;
+        transform.Rotate(0f, 180f, 0f);
+    }
+*/
 }

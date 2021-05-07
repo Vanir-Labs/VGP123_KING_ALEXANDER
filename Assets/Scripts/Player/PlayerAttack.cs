@@ -37,6 +37,7 @@ public class PlayerAttack : MonoBehaviour
             {
                 Attack();
                 attackTime = coolDown;
+                Debug.Log("Mouse 0 ");
             }
         }
     }
