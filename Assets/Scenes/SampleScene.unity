@@ -4381,14 +4381,14 @@ GameObject:
   - component: {fileID: 1928775907}
   - component: {fileID: 1928775906}
   - component: {fileID: 1928775909}
-  - component: {fileID: 1928775908}
   - component: {fileID: 1928775910}
+  - component: {fileID: 1928775908}
   - component: {fileID: 1928775911}
   - component: {fileID: 1928775912}
   - component: {fileID: 1928775913}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

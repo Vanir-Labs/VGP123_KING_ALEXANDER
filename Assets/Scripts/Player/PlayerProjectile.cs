@@ -29,7 +29,7 @@ public class PlayerProjectile : MonoBehaviour
             Rigidbody2D instBananaBulletRB = instBananaBullet.GetComponent<Rigidbody2D>();
 
             instBananaBulletRB.AddForce(Vector3.forward * speed);
-            Destroy(instBananaBullet, 3f);
+            Destroy(instBananaBullet, 2f);
         }
     }
 }

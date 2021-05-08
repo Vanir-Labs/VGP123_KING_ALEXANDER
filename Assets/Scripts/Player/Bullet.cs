@@ -17,12 +17,14 @@ public class Bullet : MonoBehaviour
     {
         Destroy(gameObject);
     }
-    void  OnControllerColliderHit()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        void OnCollisionEnter2D(Collision2D other)
+
+        if (collision.gameObject.tag != "Player" || collision.gameObject.tag != "Pickup")
         {
-            Destroy(other.gameObject);
+            Destroy(gameObject);
         }
+
     }
 
 }
