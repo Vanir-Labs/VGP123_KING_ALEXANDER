@@ -4,148 +4,148 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 8003260396191338441
-    second: coins_0
+    second: gold0
   - first:
       213: 2154074400079490951
-    second: coins_1
+    second: gold1
   - first:
       213: -8722020019358736109
-    second: coins_2
+    second: gold2
   - first:
       213: 7432920796079150873
-    second: coins_3
+    second: gold3
   - first:
       213: -3076578299200870413
-    second: coins_4
+    second: gold4
   - first:
       213: -6129140024025953609
-    second: coins_5
+    second: gold5
   - first:
       213: 7858416400693487702
-    second: coins_6
+    second: gold6
   - first:
       213: 7944876737930998293
-    second: coins_7
+    second: gold7
   - first:
       213: 6795138796809377442
-    second: coins_8
+    second: red0
   - first:
       213: -4838284008990525270
-    second: coins_9
+    second: red1
   - first:
       213: 5223116911468453440
-    second: coins_10
+    second: red2
   - first:
       213: 6100140392511635912
-    second: coins_11
+    second: red3
   - first:
       213: -9112313202329645380
-    second: coins_12
+    second: red4
   - first:
       213: -7385503176223943247
-    second: coins_13
+    second: red5
   - first:
       213: 691432708304973068
-    second: coins_14
+    second: red6
   - first:
       213: 5210204867889201685
-    second: coins_15
+    second: red7
   - first:
       213: -4747107600585399114
-    second: coins_16
+    second: purple0
   - first:
       213: 6383660430992500839
-    second: coins_17
+    second: purple1
   - first:
       213: 256719346435553054
-    second: coins_18
+    second: purple3
   - first:
       213: 2187886320943066909
-    second: coins_19
+    second: purple4
   - first:
       213: 5171972840740706334
-    second: coins_20
+    second: purple5
   - first:
       213: -8579995941444882916
-    second: coins_21
+    second: purple6
   - first:
       213: 305816836706397071
-    second: coins_22
+    second: purple7
   - first:
       213: -6412047898202361229
-    second: coins_23
+    second: purple8
   - first:
       213: 6144617304403232105
-    second: coins_24
+    second: blue0
   - first:
       213: 5895446903903038982
-    second: coins_25
+    second: blue1
   - first:
       213: -607657131650309038
-    second: coins_26
+    second: blue2
   - first:
       213: 4934836672969133397
-    second: coins_27
+    second: blue3
   - first:
       213: -7783128550563304586
-    second: coins_28
+    second: blue4
   - first:
       213: 590453161752170272
-    second: coins_29
+    second: blue5
   - first:
       213: -752671080298671512
-    second: coins_30
+    second: blue6
   - first:
       213: -6123495574137614587
-    second: coins_31
+    second: blue7
   - first:
       213: 3950139349069072623
-    second: coins_32
+    second: green0
   - first:
       213: -1999997941671842190
-    second: coins_33
+    second: green1
   - first:
       213: -3222380872655826536
-    second: coins_34
+    second: green2
   - first:
       213: -7722528071693736524
-    second: coins_35
+    second: green3
   - first:
       213: -4350727059001717432
-    second: coins_36
+    second: green4
   - first:
       213: 8846256417827060122
-    second: coins_37
+    second: green5
   - first:
       213: 2873811845926732677
-    second: coins_38
+    second: green6
   - first:
       213: -1508628990047497890
-    second: coins_39
+    second: green7
   - first:
       213: 871367216226565393
-    second: coins_40
+    second: rainbow0
   - first:
       213: -2009097511618972211
-    second: coins_41
+    second: rainbow1
   - first:
       213: -7352465435194752168
-    second: coins_42
+    second: rainbow2
   - first:
       213: -747070449752020277
-    second: coins_43
+    second: rainbow3
   - first:
       213: 2553579199964700888
-    second: coins_44
+    second: rainbow4
   - first:
       213: 1241372743014320979
-    second: coins_45
+    second: rainbow5
   - first:
       213: 2333453609322408545
-    second: coins_46
+    second: rainbow6
   - first:
       213: 3833509557296172642
-    second: coins_47
+    second: rainbow7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -259,7 +259,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: coins_0
+      name: gold0
       rect:
         serializedVersion: 2
         x: 5
@@ -267,7 +267,7 @@ TextureImporter:
         width: 11
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -280,7 +280,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_1
+      name: gold1
       rect:
         serializedVersion: 2
         x: 26
@@ -288,7 +288,7 @@ TextureImporter:
         width: 20
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -301,7 +301,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_2
+      name: gold2
       rect:
         serializedVersion: 2
         x: 52
@@ -309,7 +309,7 @@ TextureImporter:
         width: 30
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -322,7 +322,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_3
+      name: gold3
       rect:
         serializedVersion: 2
         x: 86
@@ -330,7 +330,7 @@ TextureImporter:
         width: 36
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -343,7 +343,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_4
+      name: gold4
       rect:
         serializedVersion: 2
         x: 126
@@ -351,7 +351,7 @@ TextureImporter:
         width: 38
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -364,7 +364,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_5
+      name: gold5
       rect:
         serializedVersion: 2
         x: 167
@@ -372,7 +372,7 @@ TextureImporter:
         width: 36
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -385,7 +385,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_6
+      name: gold6
       rect:
         serializedVersion: 2
         x: 207
@@ -393,7 +393,7 @@ TextureImporter:
         width: 31
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -406,7 +406,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_7
+      name: gold7
       rect:
         serializedVersion: 2
         x: 241
@@ -414,7 +414,7 @@ TextureImporter:
         width: 22
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -427,7 +427,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_8
+      name: red0
       rect:
         serializedVersion: 2
         x: 5
@@ -435,7 +435,7 @@ TextureImporter:
         width: 11
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -448,7 +448,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_9
+      name: red1
       rect:
         serializedVersion: 2
         x: 26
@@ -456,7 +456,7 @@ TextureImporter:
         width: 20
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -469,7 +469,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_10
+      name: red2
       rect:
         serializedVersion: 2
         x: 52
@@ -477,7 +477,7 @@ TextureImporter:
         width: 30
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -490,7 +490,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_11
+      name: red3
       rect:
         serializedVersion: 2
         x: 87
@@ -498,7 +498,7 @@ TextureImporter:
         width: 35
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -511,7 +511,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_12
+      name: red4
       rect:
         serializedVersion: 2
         x: 126
@@ -519,7 +519,7 @@ TextureImporter:
         width: 38
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -532,7 +532,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_13
+      name: red5
       rect:
         serializedVersion: 2
         x: 167
@@ -540,7 +540,7 @@ TextureImporter:
         width: 36
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -553,15 +553,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_14
+      name: red6
       rect:
         serializedVersion: 2
-        x: 207
+        x: 208
         y: 239
         width: 31
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -574,7 +574,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_15
+      name: red7
       rect:
         serializedVersion: 2
         x: 241
@@ -582,7 +582,7 @@ TextureImporter:
         width: 22
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -595,7 +595,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_16
+      name: purple0
       rect:
         serializedVersion: 2
         x: 5
@@ -603,7 +603,7 @@ TextureImporter:
         width: 11
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -616,7 +616,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_17
+      name: purple1
       rect:
         serializedVersion: 2
         x: 26
@@ -624,7 +624,7 @@ TextureImporter:
         width: 21
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -637,7 +637,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_18
+      name: purple3
       rect:
         serializedVersion: 2
         x: 52
@@ -645,7 +645,7 @@ TextureImporter:
         width: 30
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -658,7 +658,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_19
+      name: purple4
       rect:
         serializedVersion: 2
         x: 86
@@ -666,7 +666,7 @@ TextureImporter:
         width: 36
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -679,15 +679,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_20
+      name: purple5
       rect:
         serializedVersion: 2
-        x: 126
+        x: 125
         y: 189
         width: 38
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -700,7 +700,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_21
+      name: purple6
       rect:
         serializedVersion: 2
         x: 167
@@ -708,7 +708,7 @@ TextureImporter:
         width: 36
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -721,7 +721,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_22
+      name: purple7
       rect:
         serializedVersion: 2
         x: 207
@@ -729,7 +729,7 @@ TextureImporter:
         width: 31
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -742,7 +742,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_23
+      name: purple8
       rect:
         serializedVersion: 2
         x: 241
@@ -750,7 +750,7 @@ TextureImporter:
         width: 22
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -763,7 +763,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_24
+      name: blue0
       rect:
         serializedVersion: 2
         x: 5
@@ -771,7 +771,7 @@ TextureImporter:
         width: 11
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -784,7 +784,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_25
+      name: blue1
       rect:
         serializedVersion: 2
         x: 26
@@ -792,7 +792,7 @@ TextureImporter:
         width: 20
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -805,7 +805,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_26
+      name: blue2
       rect:
         serializedVersion: 2
         x: 52
@@ -813,7 +813,7 @@ TextureImporter:
         width: 30
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -826,7 +826,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_27
+      name: blue3
       rect:
         serializedVersion: 2
         x: 87
@@ -834,7 +834,7 @@ TextureImporter:
         width: 35
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -847,7 +847,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_28
+      name: blue4
       rect:
         serializedVersion: 2
         x: 126
@@ -855,7 +855,7 @@ TextureImporter:
         width: 38
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -868,7 +868,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_29
+      name: blue5
       rect:
         serializedVersion: 2
         x: 167
@@ -876,7 +876,7 @@ TextureImporter:
         width: 36
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -889,7 +889,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_30
+      name: blue6
       rect:
         serializedVersion: 2
         x: 207
@@ -897,7 +897,7 @@ TextureImporter:
         width: 30
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -910,7 +910,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_31
+      name: blue7
       rect:
         serializedVersion: 2
         x: 241
@@ -918,7 +918,7 @@ TextureImporter:
         width: 21
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -931,7 +931,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_32
+      name: green0
       rect:
         serializedVersion: 2
         x: 5
@@ -939,7 +939,7 @@ TextureImporter:
         width: 11
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -952,7 +952,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_33
+      name: green1
       rect:
         serializedVersion: 2
         x: 26
@@ -960,7 +960,7 @@ TextureImporter:
         width: 20
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -973,7 +973,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_34
+      name: green2
       rect:
         serializedVersion: 2
         x: 52
@@ -981,7 +981,7 @@ TextureImporter:
         width: 30
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -994,7 +994,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_35
+      name: green3
       rect:
         serializedVersion: 2
         x: 86
@@ -1002,7 +1002,7 @@ TextureImporter:
         width: 36
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1015,7 +1015,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_36
+      name: green4
       rect:
         serializedVersion: 2
         x: 126
@@ -1023,7 +1023,7 @@ TextureImporter:
         width: 38
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1036,7 +1036,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_37
+      name: green5
       rect:
         serializedVersion: 2
         x: 167
@@ -1044,7 +1044,7 @@ TextureImporter:
         width: 36
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1057,7 +1057,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_38
+      name: green6
       rect:
         serializedVersion: 2
         x: 207
@@ -1065,7 +1065,7 @@ TextureImporter:
         width: 31
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1078,7 +1078,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_39
+      name: green7
       rect:
         serializedVersion: 2
         x: 241
@@ -1086,7 +1086,7 @@ TextureImporter:
         width: 22
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1099,7 +1099,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_40
+      name: rainbow0
       rect:
         serializedVersion: 2
         x: 5
@@ -1107,7 +1107,7 @@ TextureImporter:
         width: 11
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1120,7 +1120,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_41
+      name: rainbow1
       rect:
         serializedVersion: 2
         x: 25
@@ -1128,7 +1128,7 @@ TextureImporter:
         width: 22
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1141,7 +1141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_42
+      name: rainbow2
       rect:
         serializedVersion: 2
         x: 52
@@ -1149,7 +1149,7 @@ TextureImporter:
         width: 30
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1162,7 +1162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_43
+      name: rainbow3
       rect:
         serializedVersion: 2
         x: 86
@@ -1170,7 +1170,7 @@ TextureImporter:
         width: 36
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1183,7 +1183,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_44
+      name: rainbow4
       rect:
         serializedVersion: 2
         x: 126
@@ -1191,7 +1191,7 @@ TextureImporter:
         width: 38
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1204,7 +1204,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_45
+      name: rainbow5
       rect:
         serializedVersion: 2
         x: 167
@@ -1212,7 +1212,7 @@ TextureImporter:
         width: 36
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1225,7 +1225,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_46
+      name: rainbow6
       rect:
         serializedVersion: 2
         x: 206
@@ -1233,7 +1233,7 @@ TextureImporter:
         width: 32
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1246,7 +1246,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coins_47
+      name: rainbow7
       rect:
         serializedVersion: 2
         x: 241
@@ -1254,7 +1254,7 @@ TextureImporter:
         width: 22
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

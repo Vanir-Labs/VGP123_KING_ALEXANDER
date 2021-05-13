@@ -58,7 +58,7 @@ public class Projectile : MonoBehaviour
     {
         if (lifetime <= 0)
         {
-            lifetime = 2.0f;
+            lifetime = 3.0f;
         }
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
@@ -67,10 +67,15 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag != "Player" && collision.gameObject.tag != "Pickup")
-        {
-            Destroy(gameObject);
-        }
+//        if (collision.gameObject.tag != "Player" && collision.gameObject.tag != "Pickup" && collision.gameObject.tag != "PowerUp")
+//        {
+//            Destroy(gameObject);
+//        }
+
+		if (collision.gameObject.layer == 3)
+		{
+			Destroy(gameObject);
+		}
     }
 
 }

@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask isGroundedLayer;
     public Transform groundCheck;
     public float groundCheckRadius;
+    public bool isRunning;
 
     // Start is called before the first frame update
     // Run GetComponent in the Start(), never Update().
