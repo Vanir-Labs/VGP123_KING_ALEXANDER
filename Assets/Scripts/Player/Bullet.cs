@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float speed = 6f;
+	public int damage = 10;
     public Rigidbody2D rb;
 
     // Start is called before the first frame update
@@ -20,7 +21,7 @@ public class Bullet : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.gameObject.tag != "Player" || collision.gameObject.tag != "Pickup")
+        if (collision.gameObject.tag != "Enemy" || collision.gameObject.tag != "Pickup")
         {
             Destroy(gameObject);
         }

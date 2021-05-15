@@ -41,15 +41,15 @@ public class PlayerProjectile : MonoBehaviour
 
         }
         {
-            //simply rotate left or right(write this code in your script that controls player
+            //Supposed to be changing projectile left / right
 /*
             if (Input.GetKeyDown(KeyCode.A))
             {
-                FirePoint.transform.Rotate(0, -90, 0);
+                FirePoint.transform.Rotate(-90, 0, 0);
             }
             if (Input.GetKeyDown(KeyCode.D))
             {
-                FirePoint.transform.Rotate(0, 90, 0);
+                FirePoint.transform.Rotate(90, 0, 0);
             }
 */
         }
