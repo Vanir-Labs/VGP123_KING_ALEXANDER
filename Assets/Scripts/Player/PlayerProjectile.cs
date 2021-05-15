@@ -1,4 +1,4 @@
-//PlayerAttack
+//PlayerProjectile
 //By: Lex King
 // 
 // 
@@ -68,8 +68,9 @@ public class PlayerProjectile : MonoBehaviour
 
         var Bullet = (GameObject)Instantiate(bulletPrefab, FirePoint.position, FirePoint.rotation);
         // Add velocity to the bullet
-        Bullet.GetComponent<Rigidbody>().velocity = Bullet.transform.forward * 6;
+        Bullet.GetComponent<Rigidbody2D>().velocity = Bullet.transform.forward * 6;
         // Destroy the bullet after 2 seconds
-        Destroy(Bullet, 2.0f);
+        Destroy(Bullet, 3.0f);
+//        Destroy(GameObject.FindGameObjectsWithTag("Projectile"), 2.0f);
     }
 }
