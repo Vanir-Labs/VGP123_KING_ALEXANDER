@@ -27,8 +27,8 @@ public class RandSpawnItem : MonoBehaviour
 
     private void InstantiateObject()
     {
-        int r = Random.Range(0, objectsToInstantiate.Length);
-        Instantiate(objectsToInstantiate[r], pos.position, objectsToInstantiate[r].transform.rotation);
+        int rr = Random.Range(0, objectsToInstantiate.Length);
+        Instantiate(objectsToInstantiate[rr], pos.position, objectsToInstantiate[rr].transform.rotation);
     }
 //End of Script
 }

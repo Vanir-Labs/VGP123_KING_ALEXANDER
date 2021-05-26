@@ -9,7 +9,8 @@ using UnityEngine;
 
  public class EnemyHealth : MonoBehaviour
 {
-    public float EnHealth = 10;
+    public float enHealth = 3;
+    public Rigidbody2D enSprite;
     private Animator anima;
     void Start()
     {
@@ -17,18 +18,18 @@ using UnityEngine;
     }
     public void TakeDamage(float damage)
     {
-        if (EnHealth <= 0)
+        if (enHealth <= 0)
         {
             return;
         }
-        EnHealth -= damage;
-        if (EnHealth <= 0)
+        enHealth -= damage;
+        if (enHealth <= 0)
         {
             Death();
         }
     }
     private void Death()
     {
-        anima.SetTrigger("die");
+        anima.SetTrigger("enDie");
     }
 }
