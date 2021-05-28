@@ -15,11 +15,11 @@ C:/Users/Lexrk/Documents/Vanir Labs/GitHub/Spring-2021-CPP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1052
+10566
 Successfully changed project path to: C:/Users/Lexrk/Documents/Vanir Labs/GitHub/Spring-2021-CPP
 C:/Users/Lexrk/Documents/Vanir Labs/GitHub/Spring-2021-CPP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 62.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,617 +35,190 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002296 seconds.
+Registered in 0.373555 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.841 seconds
+- Completed reload, in  5.606 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000983 seconds.
+Registered in 0.077949 seconds.
 Begin MonoManager ReloadAssembly
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
+- Completed reload, in  3.815 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1827 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.4 MB.
-System memory in use after: 85.3 MB.
+System memory in use before: 85.5 MB.
+System memory in use after: 85.5 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2271.
-Total: 2.059100 ms (FindLiveObjects: 0.255000 ms CreateObjectMapping: 0.069300 ms MarkObjects: 1.617700 ms  DeleteObjects: 0.115400 ms)
+Total: 2.526400 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.065400 ms MarkObjects: 2.137400 ms  DeleteObjects: 0.120700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Player/RandSpawnItem.cs
-  artifactKey: Guid(7fe610f53bed69c4bbad6f83b9753fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/RandSpawnItem.cs using Guid(7fe610f53bed69c4bbad6f83b9753fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041035a1b3c809fecc4439c97fe87ebc') in 0.030817 seconds
-  Import took 0.034333 seconds .
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb916a01bd0799ea2bf23e6ba998bd98') in 0.116399 seconds
+  Import took 0.119172 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.98 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 49.3 MB.
-System memory in use after: 49.3 MB.
+Received Import Request.
+  Time since last request: 1.801572 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a5df6a8b1432212c980bb3fd7c4268') in 0.022053 seconds
+  Import took 0.025817 seconds .
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2271.
-Total: 2.366200 ms (FindLiveObjects: 0.283700 ms CreateObjectMapping: 0.097000 ms MarkObjects: 1.890000 ms  DeleteObjects: 0.094500 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 1.393914 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7410fe4f9a05dc8469809e25393c3ff') in 0.014219 seconds
+  Import took 0.020094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.515330 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1671a2a45926877e30b23b343f42f189') in 0.016853 seconds
+  Import took 0.022175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.433658 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe0a352ea301977484adf13e934e965') in 0.013876 seconds
+  Import took 0.017171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.598541 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aabd379efd1623864966249d206eaa') in 0.016224 seconds
+  Import took 0.018992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.217739 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a400c6b15238b0201edc4002d2d41dc0') in 0.020644 seconds
+  Import took 0.026008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.203608 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01177862a582324773df17f7500cf501') in 0.013585 seconds
+  Import took 0.018216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.841925 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e8eb4591e3cd5c71031723210dc184') in 0.015185 seconds
+  Import took 0.019283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.516406 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41650fd8eae622bd5ead4217881db381') in 0.014287 seconds
+  Import took 0.018261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.257362 seconds.
+  path: Assets/Sprites/enemies/Expresso/Expresso.prefab
+  artifactKey: Guid(a08ea80aa764196478bd015417e9cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/Expresso.prefab using Guid(a08ea80aa764196478bd015417e9cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b79a72854f908f08fb975261360f08') in 0.009947 seconds
+  Import took 0.014075 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000974 seconds.
+Registered in 0.000943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.815 seconds
+- Completed reload, in  0.827 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.3 MB.
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2275.
-Total: 2.453400 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.104600 ms MarkObjects: 1.973300 ms  DeleteObjects: 0.099400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001086 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.4 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2279.
-Total: 2.302000 ms (FindLiveObjects: 0.313000 ms CreateObjectMapping: 0.079800 ms MarkObjects: 1.808600 ms  DeleteObjects: 0.098100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000974 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.4 MB.
-System memory in use after: 85.4 MB.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.6 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
-Total: 2.335200 ms (FindLiveObjects: 0.286800 ms CreateObjectMapping: 0.083500 ms MarkObjects: 1.862100 ms  DeleteObjects: 0.101600 ms)
+Total: 2.134200 ms (FindLiveObjects: 0.210000 ms CreateObjectMapping: 0.084000 ms MarkObjects: 1.737600 ms  DeleteObjects: 0.101600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 132.570753 seconds.
-  path: Assets/Scripts/Player/PlayerCollision.cs
-  artifactKey: Guid(dd979f2381a1e90409995a31e319558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerCollision.cs using Guid(dd979f2381a1e90409995a31e319558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6254695d9d65211d4834755ac4ce0a70') in 0.008957 seconds
-  Import took 0.012736 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001169 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.4 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
-Total: 2.023900 ms (FindLiveObjects: 0.231400 ms CreateObjectMapping: 0.097000 ms MarkObjects: 1.589700 ms  DeleteObjects: 0.104700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000954 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.4 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2291.
-Total: 2.192400 ms (FindLiveObjects: 0.310400 ms CreateObjectMapping: 0.113200 ms MarkObjects: 1.664400 ms  DeleteObjects: 0.103200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001037 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.838 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.4 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
-Total: 2.239300 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.065000 ms MarkObjects: 1.851400 ms  DeleteObjects: 0.100200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000992 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2299.
-Total: 2.680900 ms (FindLiveObjects: 0.591000 ms CreateObjectMapping: 0.183400 ms MarkObjects: 1.798300 ms  DeleteObjects: 0.106700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000956 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
-Platform modules already initialized, skipping
-Script error: OnCollisionEnter
-This message parameter has to be of type: Collision
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2303.
-Total: 2.292600 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.097300 ms MarkObjects: 1.875400 ms  DeleteObjects: 0.106700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001570 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.905 seconds
-Platform modules already initialized, skipping
-Script error: OnCollisionEnter
-This message parameter has to be of type: Collision
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2307.
-Total: 2.266200 ms (FindLiveObjects: 0.412800 ms CreateObjectMapping: 0.146200 ms MarkObjects: 1.599300 ms  DeleteObjects: 0.106500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000982 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.828 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2311.
-Total: 2.409500 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.094800 ms MarkObjects: 1.897900 ms  DeleteObjects: 0.125700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000996 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.867 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2315.
-Total: 2.242600 ms (FindLiveObjects: 0.306900 ms CreateObjectMapping: 0.104000 ms MarkObjects: 1.714900 ms  DeleteObjects: 0.115400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001324 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.032 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2319.
-Total: 2.393200 ms (FindLiveObjects: 0.279000 ms CreateObjectMapping: 0.092800 ms MarkObjects: 1.912500 ms  DeleteObjects: 0.107000 ms)
+  Time since last request: 205.596408 seconds.
+  path: Assets/Scripts/Enemy/EnemyTurret.cs
+  artifactKey: Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyTurret.cs using Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d731477f2ed48c4e82fe09602e01f42') in 0.017939 seconds
+  Import took 0.021489 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1563.736675 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b633fd94d7b62d1fce296eb5c0a605e1') in 0.186891 seconds
-  Import took 0.196440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/items/RainbowCoin.prefab
-  artifactKey: Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RainbowCoin.prefab using Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26edb72bf23c045a3f6b1c04711874f1') in 0.040314 seconds
-  Import took 0.051257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001274 seconds.
-  path: Assets/Sprites/items/RedCoin.prefab
-  artifactKey: Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RedCoin.prefab using Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f58c0690774e7d71e6424e404b36c9') in 0.115031 seconds
-  Import took 0.124198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Sprites/items/GreenCoin.prefab
-  artifactKey: Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GreenCoin.prefab using Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f072790594236f40c9ce49ab6dbb2327') in 0.061514 seconds
-  Import took 0.089038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001700 seconds.
-  path: Assets/Sprites/items/GoldCoin.prefab
-  artifactKey: Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GoldCoin.prefab using Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac546965dca5f08873487c01d0afd02') in 0.075950 seconds
-  Import took 0.093488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Sprites/items/PurpleCoin.prefab
-  artifactKey: Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/PurpleCoin.prefab using Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285e1f8e0c7311e113f267f36a52d907') in 0.020221 seconds
-  Import took 0.027869 seconds .
+  Time since last request: 7.221575 seconds.
+  path: Assets/Scripts/Enemy/BirdTurret.cs
+  artifactKey: Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/BirdTurret.cs using Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d8330c8bd7138d3b70525b272355e3') in 0.010710 seconds
+  Import took 0.015786 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001058 seconds.
+Registered in 0.000933 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.537 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2330.
-Total: 4.037800 ms (FindLiveObjects: 1.490900 ms CreateObjectMapping: 0.144900 ms MarkObjects: 2.198900 ms  DeleteObjects: 0.195000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.349217 seconds.
-  path: Assets/Sprites/items/RainbowCoin.prefab
-  artifactKey: Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RainbowCoin.prefab using Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dae861b5fe2887475d42aee668a26b') in 0.100025 seconds
-  Import took 0.109956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3ca3ba98dbe8466a56805163acf8cc') in 0.025274 seconds
-  Import took 0.031118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Sprites/items/RedCoin.prefab
-  artifactKey: Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RedCoin.prefab using Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca8bc6824a9e0ffc96bf18024c131b5') in 0.023565 seconds
-  Import took 0.031793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3ca3ba98dbe8466a56805163acf8cc') in 0.044872 seconds
-  Import took 0.050757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Sprites/items/GreenCoin.prefab
-  artifactKey: Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GreenCoin.prefab using Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9283c6b803af357f78d434b7c48fda49') in 0.029772 seconds
-  Import took 0.035882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Sprites/items/GoldCoin.prefab
-  artifactKey: Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GoldCoin.prefab using Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95e8c616fcfa2cfc32f66bd856252c9') in 0.028540 seconds
-  Import took 0.041600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Sprites/items/PurpleCoin.prefab
-  artifactKey: Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/PurpleCoin.prefab using Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874fbd9c96ea8daf0eda78e6985ce396') in 0.019406 seconds
-  Import took 0.025875 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001112 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.964 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2335.
-Total: 2.102100 ms (FindLiveObjects: 0.227900 ms CreateObjectMapping: 0.074800 ms MarkObjects: 1.699400 ms  DeleteObjects: 0.098600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001065 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.950 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2339.
-Total: 2.500800 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.100700 ms MarkObjects: 2.021400 ms  DeleteObjects: 0.103000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001468 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
-Total: 2.321000 ms (FindLiveObjects: 0.192400 ms CreateObjectMapping: 0.057500 ms MarkObjects: 1.956300 ms  DeleteObjects: 0.113700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001208 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2347.
-Total: 2.476800 ms (FindLiveObjects: 0.266300 ms CreateObjectMapping: 0.088900 ms MarkObjects: 2.016300 ms  DeleteObjects: 0.104100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001058 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -657,131 +230,99 @@ Script error: OnTriggerEnter2D
 This message parameter has to be of type: Collider2D
 The message will be ignored.
 
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 88.8 MB.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 2.321100 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.119800 ms MarkObjects: 1.765000 ms  DeleteObjects: 0.105400 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 2.511100 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.090500 ms MarkObjects: 1.965400 ms  DeleteObjects: 0.098400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001634 seconds.
+Registered in 0.002413 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.339 seconds
+- Completed reload, in  0.805 seconds
 Platform modules already initialized, skipping
 Script error: OnTriggerEnter2D
 This message parameter has to be of type: Collider2D
 The message will be ignored.
 
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 88.8 MB.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2355.
-Total: 5.346800 ms (FindLiveObjects: 0.599300 ms CreateObjectMapping: 0.188100 ms MarkObjects: 4.436700 ms  DeleteObjects: 0.119800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 2.378300 ms (FindLiveObjects: 0.333300 ms CreateObjectMapping: 0.082200 ms MarkObjects: 1.867100 ms  DeleteObjects: 0.093600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.426389 seconds.
+  path: Assets/Scripts/Enemy/BirdTurret.cs
+  artifactKey: Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/BirdTurret.cs using Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0cad2724056ac31f94cb85061465ded') in 0.004708 seconds
+  Import took 0.008258 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001805 seconds.
+Registered in 0.001054 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.013 seconds
+- Completed reload, in  1.107 seconds
 Platform modules already initialized, skipping
 Script error: OnTriggerEnter2D
 This message parameter has to be of type: Collider2D
 The message will be ignored.
 
-Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 88.8 MB.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2359.
-Total: 2.378600 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.091100 ms MarkObjects: 1.887700 ms  DeleteObjects: 0.120200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 693.807144 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b14a61a019d2c65255744e580198d8') in 0.076516 seconds
-  Import took 0.080578 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
+Total: 3.364200 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.095400 ms MarkObjects: 2.865600 ms  DeleteObjects: 0.160300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Sprites/items/RainbowCoin.prefab
-  artifactKey: Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RainbowCoin.prefab using Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53518ab49c0ae7c7ce41507b00aafa4a') in 0.014161 seconds
-  Import took 0.020051 seconds .
+  Time since last request: 244.970094 seconds.
+  path: Assets/Sprites/enemies/Expresso/enProjectile.prefab
+  artifactKey: Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/enProjectile.prefab using Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae673710b2b4fe685412928b6a7e839') in 0.080828 seconds
+  Import took 0.085806 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Sprites/items/RedCoin.prefab
-  artifactKey: Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RedCoin.prefab using Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b3f1bd23f1ca553117bfe84a33a4f6') in 0.013549 seconds
-  Import took 0.017749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Sprites/items/GreenCoin.prefab
-  artifactKey: Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GreenCoin.prefab using Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecaf613bc8c7b71f949c7a4f7ff539a') in 0.022484 seconds
-  Import took 0.029774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Sprites/items/GoldCoin.prefab
-  artifactKey: Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GoldCoin.prefab using Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbe3f78edff921c6eb7157933420704') in 0.016828 seconds
-  Import took 0.021846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b14a61a019d2c65255744e580198d8') in 0.020161 seconds
-  Import took 0.027374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Sprites/items/PurpleCoin.prefab
-  artifactKey: Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/PurpleCoin.prefab using Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1976aeac2947515827dcc851c56dae44') in 0.022229 seconds
-  Import took 0.028487 seconds .
+  Time since last request: 29.458485 seconds.
+  path: Assets/Sprites/enemies/Expresso/enProjectile.prefab
+  artifactKey: Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/enProjectile.prefab using Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdad08b69315896793a731928e28a7d') in 0.011750 seconds
+  Import took 0.015755 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001067 seconds.
+Registered in 0.001191 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -791,205 +332,113 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
+- Completed reload, in  1.360 seconds
 Platform modules already initialized, skipping
 Script error: OnTriggerEnter2D
 This message parameter has to be of type: Collider2D
 The message will be ignored.
 
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 88.9 MB.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2364.
-Total: 2.947500 ms (FindLiveObjects: 0.460900 ms CreateObjectMapping: 0.208300 ms MarkObjects: 2.176000 ms  DeleteObjects: 0.100700 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2300.
+Total: 24.156300 ms (FindLiveObjects: 1.119200 ms CreateObjectMapping: 0.175200 ms MarkObjects: 22.211500 ms  DeleteObjects: 0.648100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002657 seconds.
+Registered in 0.002223 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 2.496500 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.074000 ms MarkObjects: 2.061600 ms  DeleteObjects: 0.178900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001210 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.059 seconds
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 3.658300 ms (FindLiveObjects: 0.316600 ms CreateObjectMapping: 0.078000 ms MarkObjects: 3.079800 ms  DeleteObjects: 0.182000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.922 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
 
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 88.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2368.
-Total: 2.598300 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.124300 ms MarkObjects: 2.074100 ms  DeleteObjects: 0.116400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 134.078029 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35493ce6a7cb227fe5582b358bc1b286') in 0.104766 seconds
-  Import took 0.118159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000580 seconds.
-  path: Assets/Sprites/items/RainbowCoin.prefab
-  artifactKey: Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RainbowCoin.prefab using Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a470d7c7a62acff017d3c8870d32ca') in 0.143272 seconds
-  Import took 0.166729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Sprites/items/RedCoin.prefab
-  artifactKey: Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RedCoin.prefab using Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1f8163f8d28a3a82628a5e3db6e98f') in 0.021074 seconds
-  Import took 0.032804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001674 seconds.
-  path: Assets/Sprites/items/GreenCoin.prefab
-  artifactKey: Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GreenCoin.prefab using Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183ab735eec1a2ddcae65b4e93aa318c') in 0.019399 seconds
-  Import took 0.038836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Sprites/items/GoldCoin.prefab
-  artifactKey: Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GoldCoin.prefab using Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97fc53aa3ca5b8e7f277fa777b74d0c') in 0.190324 seconds
-  Import took 0.201963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000656 seconds.
-  path: Assets/Sprites/items/PurpleCoin.prefab
-  artifactKey: Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/PurpleCoin.prefab using Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeb367ac4ac290b284a1deca9cd582e') in 0.072486 seconds
-  Import took 0.105965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.770477 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7feb6154823c98153829c3cc2e824ee') in 0.046796 seconds
-  Import took 0.052638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/items/RainbowCoin.prefab
-  artifactKey: Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RainbowCoin.prefab using Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8c7b82ad2295947c0e86d4643fc934') in 0.034226 seconds
-  Import took 0.040633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7feb6154823c98153829c3cc2e824ee') in 0.020808 seconds
-  Import took 0.025636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Sprites/items/RedCoin.prefab
-  artifactKey: Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RedCoin.prefab using Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdae2910b50c5c08a502e9a0fdb8398b') in 0.026960 seconds
-  Import took 0.031481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Sprites/items/GreenCoin.prefab
-  artifactKey: Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GreenCoin.prefab using Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f420aa415a1da9babd71f6a9e1be1ae') in 0.027207 seconds
-  Import took 0.035098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Sprites/items/GoldCoin.prefab
-  artifactKey: Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GoldCoin.prefab using Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2972b71806cf3ae45df39d7d444ecc') in 0.027787 seconds
-  Import took 0.038903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Sprites/items/PurpleCoin.prefab
-  artifactKey: Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/PurpleCoin.prefab using Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2bf135a70683e801fd7358b0d7f33a') in 0.121735 seconds
-  Import took 0.128700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.868846 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ce77c4af89cd612e8e8f7bdfb3832e') in 0.023358 seconds
-  Import took 0.028051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Sprites/items/RainbowCoin.prefab
-  artifactKey: Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RainbowCoin.prefab using Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599ae45990490f02e8015e602142371a') in 0.032487 seconds
-  Import took 0.040879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Sprites/items/RedCoin.prefab
-  artifactKey: Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RedCoin.prefab using Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3af4c7923a5706e267f95d0c79bcefb') in 0.023565 seconds
-  Import took 0.030219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/items/GreenCoin.prefab
-  artifactKey: Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GreenCoin.prefab using Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7ec5d09d3e156e76b3274cb8977b81') in 0.036347 seconds
-  Import took 0.046278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/Sprites/items/GoldCoin.prefab
-  artifactKey: Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GoldCoin.prefab using Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dda94e02a1ef71bef247d316c3c7aec') in 0.018381 seconds
-  Import took 0.029440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Sprites/items/PurpleCoin.prefab
-  artifactKey: Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/PurpleCoin.prefab using Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800659a4ae8457b94c5fff7ead4bec55') in 0.028529 seconds
-  Import took 0.033823 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 2.563900 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.150000 ms  DeleteObjects: 0.125600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001421 seconds.
+Registered in 0.000967 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -999,25 +448,77 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.153 seconds
+- Completed reload, in  1.021 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter
+This message parameter has to be of type: Collider
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 3.622200 ms (FindLiveObjects: 0.305500 ms CreateObjectMapping: 0.339100 ms MarkObjects: 2.838800 ms  DeleteObjects: 0.135600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001095 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
 Platform modules already initialized, skipping
 Script error: OnTriggerEnter2D
 This message parameter has to be of type: Collider2D
 The message will be ignored.
 
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.0 MB.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2373.
-Total: 2.104200 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.091300 ms MarkObjects: 1.684000 ms  DeleteObjects: 0.100400 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 2.929000 ms (FindLiveObjects: 0.415000 ms CreateObjectMapping: 0.135400 ms MarkObjects: 2.267800 ms  DeleteObjects: 0.109600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19322.842193 seconds.
+  path: Assets/Scripts/Enemy/EnemyProjectile.cs
+  artifactKey: Guid(d0937ce070de2b84bbe14c730120865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyProjectile.cs using Guid(d0937ce070de2b84bbe14c730120865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a08e60fc99ad03c8e48a11a2f0b0162') in 0.012997 seconds
+  Import took 0.018141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015402 seconds.
+  path: Assets/Scripts/Enemy/EnemyProjectile.cs
+  artifactKey: Guid(d0937ce070de2b84bbe14c730120865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyProjectile.cs using Guid(d0937ce070de2b84bbe14c730120865c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a08e60fc99ad03c8e48a11a2f0b0162') in 0.003872 seconds
+  Import took 0.008943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 206.743866 seconds.
+  path: Assets/Scripts/Enemy/BirdTurret.cs
+  artifactKey: Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/BirdTurret.cs using Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9cba3f7973d968fb1ef59afa7134b6') in 0.008976 seconds
+  Import took 0.014196 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001190 seconds.
+Registered in 0.000955 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1027,7 +528,253 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  0.850 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 2.069000 ms (FindLiveObjects: 0.230100 ms CreateObjectMapping: 0.102500 ms MarkObjects: 1.628000 ms  DeleteObjects: 0.107400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 2.342700 ms (FindLiveObjects: 0.406800 ms CreateObjectMapping: 0.159800 ms MarkObjects: 1.674100 ms  DeleteObjects: 0.099900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 413.059468 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.anim
+  artifactKey: Guid(83cad3fff29d3f64d81f424196435524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.anim using Guid(83cad3fff29d3f64d81f424196435524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcc239e246bf6570af1cd178b40d4fb') in 0.027355 seconds
+  Import took 0.031787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.204243 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.controller
+  artifactKey: Guid(0381cf1a835205e459acfb3cc076813b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.controller using Guid(0381cf1a835205e459acfb3cc076813b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d6c2bfe03c23d700c3c65188130a14') in 0.007692 seconds
+  Import took 0.015383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.387628 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdShoot.anim
+  artifactKey: Guid(01a1a623ff4d4e6449f4e928d296cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdShoot.anim using Guid(01a1a623ff4d4e6449f4e928d296cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2eb062a9a9c2d5f3bde608a4c4f603b') in 0.024542 seconds
+  Import took 0.033334 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 2.344600 ms (FindLiveObjects: 0.475300 ms CreateObjectMapping: 0.124400 ms MarkObjects: 1.634500 ms  DeleteObjects: 0.108700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.835746 seconds.
+  path: Assets/Sprites/enemies/Expresso/enProjectile 1.anim
+  artifactKey: Guid(ebf0adba3419fd14e8e08683185022cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/enProjectile 1.anim using Guid(ebf0adba3419fd14e8e08683185022cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04cfd44dc984b7fd567175b8216fae5') in 0.026473 seconds
+  Import took 0.031182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.828806 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdProjectile 1.anim
+  artifactKey: Guid(ebf0adba3419fd14e8e08683185022cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdProjectile 1.anim using Guid(ebf0adba3419fd14e8e08683185022cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e814220b6505c7008405fec0fe51a923') in 0.011297 seconds
+  Import took 0.015703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.735662 seconds.
+  path: Assets/Sprites/enemies/Expresso/enProjectile.prefab
+  artifactKey: Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/enProjectile.prefab using Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (enProjectile) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (enProjectile) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'cc661a5c0481996d16fd3d62c183d5f3') in 0.080088 seconds
+  Import took 0.083850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9105.489019 seconds.
+  path: Assets/Sprites/enemies/Expresso/enProjectile.prefab
+  artifactKey: Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/enProjectile.prefab using Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (enProjectile) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (enProjectile) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'a890557d3ef8acad8cb071200264c265') in 0.226878 seconds
+  Import took 0.383878 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.051760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.500 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2337.
+Total: 2.949100 ms (FindLiveObjects: 0.309900 ms CreateObjectMapping: 0.273400 ms MarkObjects: 2.242100 ms  DeleteObjects: 0.121900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 3.602300 ms (FindLiveObjects: 0.590800 ms CreateObjectMapping: 0.208000 ms MarkObjects: 2.685900 ms  DeleteObjects: 0.115900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
 Platform modules already initialized, skipping
 Script error: OnTriggerEnter2D
 This message parameter has to be of type: Collider2D
@@ -1035,217 +782,83 @@ The message will be ignored.
 
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.0 MB.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2377.
-Total: 5.633800 ms (FindLiveObjects: 3.154900 ms CreateObjectMapping: 0.519600 ms MarkObjects: 1.852700 ms  DeleteObjects: 0.104400 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 2.698400 ms (FindLiveObjects: 0.398200 ms CreateObjectMapping: 0.096400 ms MarkObjects: 2.089100 ms  DeleteObjects: 0.113200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.757274 seconds.
+  path: Assets/Sprites/enemies/Expresso/enProjectile.prefab
+  artifactKey: Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/enProjectile.prefab using Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (enProjectile) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (enProjectile) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '8e3ffb71911ee9eb50ba281d8ef599e8') in 0.062088 seconds
+  Import took 0.065635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.710936 seconds.
+  path: Assets/Sprites/enemies/Expresso/enProjectile.prefab
+  artifactKey: Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/enProjectile.prefab using Guid(e9d9f36560d7df14bae9667d4312f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (enProjectile) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (enProjectile) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '49183ba2fac2efcc686f0e946b64bac1') in 0.013130 seconds
+  Import took 0.018715 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001046 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2381.
-Total: 3.201700 ms (FindLiveObjects: 0.478600 ms CreateObjectMapping: 0.175800 ms MarkObjects: 2.438800 ms  DeleteObjects: 0.105800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001041 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.095 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2385.
-Total: 4.105200 ms (FindLiveObjects: 1.060200 ms CreateObjectMapping: 0.274000 ms MarkObjects: 2.652500 ms  DeleteObjects: 0.113300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001686 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.171 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2389.
-Total: 3.077700 ms (FindLiveObjects: 0.574600 ms CreateObjectMapping: 0.122600 ms MarkObjects: 2.272600 ms  DeleteObjects: 0.102900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001468 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.039 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2393.
-Total: 2.577600 ms (FindLiveObjects: 0.322900 ms CreateObjectMapping: 0.124800 ms MarkObjects: 2.024000 ms  DeleteObjects: 0.104300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 249.245241 seconds.
-  path: Assets/Sprites/items/RainbowCoin 1.prefab
-  artifactKey: Guid(6f1bdff294b676c42b28a5c172fce930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RainbowCoin 1.prefab using Guid(6f1bdff294b676c42b28a5c172fce930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c5d289aa71a4df4b8c3a88a58cf3e8') in 0.064661 seconds
-  Import took 0.070369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Sprites/items/PurpleCoin 1.prefab
-  artifactKey: Guid(165799b62dee2244fa81bd9c6948a546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/PurpleCoin 1.prefab using Guid(165799b62dee2244fa81bd9c6948a546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b8cd9634107a1f1063da5a365eadbf') in 0.017597 seconds
-  Import took 0.022413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001492 seconds.
-  path: Assets/Sprites/items/GoldCoin 1.prefab
-  artifactKey: Guid(9e762254d0a83e743b1d1fa100275548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GoldCoin 1.prefab using Guid(9e762254d0a83e743b1d1fa100275548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5597325172b66bf626c80eb7be787aa0') in 0.020618 seconds
-  Import took 0.031413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001189 seconds.
-  path: Assets/Sprites/items/GreenCoin 1.prefab
-  artifactKey: Guid(5a29e43b18d24004f947f6e59b5d50e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GreenCoin 1.prefab using Guid(5a29e43b18d24004f947f6e59b5d50e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbfa0662893ba3a7b28f5ce509b1797') in 0.037414 seconds
-  Import took 0.049962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000684 seconds.
-  path: Assets/Sprites/items/BlueCoin 1.prefab
-  artifactKey: Guid(b5a1efa9cf45cee4bb31ea3de8479048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin 1.prefab using Guid(b5a1efa9cf45cee4bb31ea3de8479048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d4ec43616b80acbad7b326a47e6cee') in 0.038843 seconds
-  Import took 0.050353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.835915 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2845d231a75d6d5ffea0a8bbacaf5540') in 0.028892 seconds
-  Import took 0.035111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Sprites/items/RainbowCoin.prefab
-  artifactKey: Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RainbowCoin.prefab using Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aad9159cb71d77908271e301f165b70') in 0.030417 seconds
-  Import took 0.037994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Sprites/items/RedCoin.prefab
-  artifactKey: Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RedCoin.prefab using Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db851e50db6a44d686acb892b437eca0') in 0.027488 seconds
-  Import took 0.033557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/Sprites/items/GreenCoin.prefab
-  artifactKey: Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GreenCoin.prefab using Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850a9386ca3ac993187d33a313eab39c') in 0.046158 seconds
-  Import took 0.058986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Sprites/items/GoldCoin.prefab
-  artifactKey: Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GoldCoin.prefab using Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf866b9e488272a103ffdcc263a4700') in 0.018315 seconds
-  Import took 0.022711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Sprites/items/PurpleCoin.prefab
-  artifactKey: Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/PurpleCoin.prefab using Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e76cf1d38cef00c7d16829162ca3d1b') in 0.022277 seconds
-  Import took 0.063396 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001609 seconds.
+Registered in 0.000971 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1255,159 +868,215 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.023 seconds
+- Completed reload, in  0.873 seconds
 Platform modules already initialized, skipping
 Script error: OnTriggerEnter2D
 This message parameter has to be of type: Collider2D
 The message will be ignored.
 
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.0 MB.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2398.
-Total: 2.160300 ms (FindLiveObjects: 0.338600 ms CreateObjectMapping: 0.107300 ms MarkObjects: 1.599600 ms  DeleteObjects: 0.113800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.627053 seconds.
-  path: Assets/Sprites/items/RainbowCoin.prefab
-  artifactKey: Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RainbowCoin.prefab using Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cee3353a524b07e11ca0d8574951b21') in 0.068482 seconds
-  Import took 0.075806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a7aa23d81292badf5a4a50e5eeb067') in 0.018565 seconds
-  Import took 0.025769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Sprites/items/RedCoin.prefab
-  artifactKey: Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RedCoin.prefab using Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7e90dffcf41f75b382cd2128f8c9f1') in 0.018523 seconds
-  Import took 0.027905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002282 seconds.
-  path: Assets/Sprites/items/GreenCoin.prefab
-  artifactKey: Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GreenCoin.prefab using Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae452c1cd249bebe8db3971da4499c6') in 0.048742 seconds
-  Import took 0.058230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Sprites/items/GoldCoin.prefab
-  artifactKey: Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GoldCoin.prefab using Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceae1fbd9d6099a966a225af2329c76b') in 0.026977 seconds
-  Import took 0.034076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000723 seconds.
-  path: Assets/Sprites/items/PurpleCoin.prefab
-  artifactKey: Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/PurpleCoin.prefab using Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c39fe6de34903a2c8b3fd530ff546e2') in 0.031437 seconds
-  Import took 0.041695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.593675 seconds.
-  path: Assets/Sprites/items/BlueCoin.prefab
-  artifactKey: Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/BlueCoin.prefab using Guid(3e29c3a14efa6a54f89156941cb7d7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0c5296d00761e2fc61802f3c144ed9') in 0.029664 seconds
-  Import took 0.036796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Sprites/items/RainbowCoin.prefab
-  artifactKey: Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RainbowCoin.prefab using Guid(319322bbbe9d39e4fa045b8b899e81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faa867459338882eebda5e7ea020d16') in 0.033119 seconds
-  Import took 0.039087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Sprites/items/RedCoin.prefab
-  artifactKey: Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/RedCoin.prefab using Guid(de6ab8313de8f7344af377f1a9cf77bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1364f3295f31f1c190731d241127c7') in 0.024784 seconds
-  Import took 0.030171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Sprites/items/GreenCoin.prefab
-  artifactKey: Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GreenCoin.prefab using Guid(c6aca05695110c445b05fc1f5522f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f39edd14d42666daff98f2dd147a39') in 0.027371 seconds
-  Import took 0.033088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Sprites/items/GoldCoin.prefab
-  artifactKey: Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/GoldCoin.prefab using Guid(e7fefa97fe27571428ed06a56e1b1b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fe14d3cd044bd7abc7d9e4db260920') in 0.028028 seconds
-  Import took 0.033221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Sprites/items/PurpleCoin.prefab
-  artifactKey: Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/items/PurpleCoin.prefab using Guid(a3e8be2172bdb0f4984737de73c48f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa5d10f06d3ebbc3d881736507efa5f') in 0.024533 seconds
-  Import took 0.030836 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2350.
+Total: 2.064000 ms (FindLiveObjects: 0.182000 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.712800 ms  DeleteObjects: 0.103900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001147 seconds.
+Registered in 0.001522 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
+- Completed reload, in  1.172 seconds
 Platform modules already initialized, skipping
 Script error: OnTriggerEnter2D
 This message parameter has to be of type: Collider2D
 The message will be ignored.
 
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.1 MB.
-System memory in use after: 89.0 MB.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2403.
-Total: 2.750600 ms (FindLiveObjects: 0.382300 ms CreateObjectMapping: 0.075200 ms MarkObjects: 2.087700 ms  DeleteObjects: 0.203900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 3.122000 ms (FindLiveObjects: 0.261500 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.647800 ms  DeleteObjects: 0.125100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001108 seconds.
+Registered in 0.001192 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.994 seconds
+- Completed reload, in  0.964 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2358.
+Total: 3.618600 ms (FindLiveObjects: 0.220900 ms CreateObjectMapping: 0.059000 ms MarkObjects: 2.938500 ms  DeleteObjects: 0.399300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9398.574443 seconds.
+  path: Assets/Sprites/enemies/Expresso/New Animation.anim
+  artifactKey: Guid(02e64c7489b67024ea4b7b55cd5832fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/New Animation.anim using Guid(02e64c7489b67024ea4b7b55cd5832fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c6df124ba86a18011647f91d0b1856') in 0.036942 seconds
+  Import took 0.041666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.951282 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdRunning.anim
+  artifactKey: Guid(1f64aa83687053c45bed2560374a4ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdRunning.anim using Guid(1f64aa83687053c45bed2560374a4ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c1af1b8f8b0f063043c4cfd8eccb02') in 0.015289 seconds
+  Import took 0.018958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.461346 seconds.
+  path: Assets/Sprites/enemies/Expresso/New Prefab.prefab
+  artifactKey: Guid(278c6d1f1a8970a4c90a74b3b0f1c76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/New Prefab.prefab using Guid(278c6d1f1a8970a4c90a74b3b0f1c76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6fe64ebb0c21ef751ac3e03a7c42dd') in 0.039437 seconds
+  Import took 0.047921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.523726 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef72558b1d86fe77cbe6947f24d0a9ed') in 0.076659 seconds
+  Import took 0.080218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.560606 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d56e7fe2f953eeb633182669f71cff') in 0.005919 seconds
+  Import took 0.010218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.160188 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce199e6059eea265c7a3047ed55b825') in 0.023775 seconds
+  Import took 0.030912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.598831 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67bcb2feeaea4d6887c5f3f81e3665e') in 0.028464 seconds
+  Import took 0.038873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.163003 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0934f259f73410a556116ac75e94fd') in 0.030405 seconds
+  Import took 0.035591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.849150 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5496fd77d19ac9237d811cfd697ee7e') in 0.030755 seconds
+  Import took 0.037354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.630683 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0511fa8dd8ffb278dccaba71e6f651b2') in 0.016067 seconds
+  Import took 0.021578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.445024 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938a002c57b7806b4205cb2a10f546da') in 0.029280 seconds
+  Import took 0.034696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.293961 seconds.
+  path: Assets/Sprites/enemies/Expresso/birdTurret.prefab
+  artifactKey: Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/birdTurret.prefab using Guid(a0c961911340f004fa86a1acf11842a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58039decce0438638f2eb28a4c69c31') in 0.023572 seconds
+  Import took 0.037947 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003047 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.501 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 2.767100 ms (FindLiveObjects: 0.299500 ms CreateObjectMapping: 0.130100 ms MarkObjects: 2.187400 ms  DeleteObjects: 0.148900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
 Platform modules already initialized, skipping
 Script error: OnTriggerEnter2D
 This message parameter has to be of type: Collider2D
@@ -1415,11 +1084,675 @@ The message will be ignored.
 
 Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2367.
+Total: 2.417600 ms (FindLiveObjects: 0.209000 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.009500 ms  DeleteObjects: 0.112500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 2.258000 ms (FindLiveObjects: 0.323100 ms CreateObjectMapping: 0.083500 ms MarkObjects: 1.744900 ms  DeleteObjects: 0.104900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 317.079096 seconds.
+  path: Assets/Sprites/enemies/Expresso/Expresso.prefab
+  artifactKey: Guid(a08ea80aa764196478bd015417e9cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/Expresso.prefab using Guid(a08ea80aa764196478bd015417e9cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156532dd6fb24fdd845132a5f6df10f5') in 0.067207 seconds
+  Import took 0.071790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.313776 seconds.
+  path: Assets/Sprites/enemies/Expresso/Expresso.prefab
+  artifactKey: Guid(a08ea80aa764196478bd015417e9cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/Expresso.prefab using Guid(a08ea80aa764196478bd015417e9cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b4695a590b0c32c943b3b1a69fc021') in 0.015124 seconds
+  Import took 0.020352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.175350 seconds.
+  path: Assets/Sprites/enemies/Expresso/Expresso.prefab
+  artifactKey: Guid(a08ea80aa764196478bd015417e9cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/Expresso.prefab using Guid(a08ea80aa764196478bd015417e9cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51e0c04e2a3f3303a5ceaca427646fc') in 0.035036 seconds
+  Import took 0.041380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.378629 seconds.
+  path: Assets/Sprites/enemies/Expresso/Expresso.prefab
+  artifactKey: Guid(a08ea80aa764196478bd015417e9cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemies/Expresso/Expresso.prefab using Guid(a08ea80aa764196478bd015417e9cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85166a8ec4845c368fbbd0cdb9d0fac') in 0.033258 seconds
+  Import took 0.038483 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2376.
+Total: 2.173800 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.119300 ms MarkObjects: 1.663300 ms  DeleteObjects: 0.106700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2380.
+Total: 2.428000 ms (FindLiveObjects: 0.351700 ms CreateObjectMapping: 0.201500 ms MarkObjects: 1.759500 ms  DeleteObjects: 0.113300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.284479 seconds.
+  path: Assets/Scripts/Enemy/BirdTurret.cs
+  artifactKey: Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/BirdTurret.cs using Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c08b230418329ce54efc3fa74f22e7') in 0.012005 seconds
+  Import took 0.015675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022854 seconds.
+  path: Assets/Scripts/Enemy/BirdTurret.cs
+  artifactKey: Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/BirdTurret.cs using Guid(4ecab46c05ad8d245b8b0ac9339ec097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c08b230418329ce54efc3fa74f22e7') in 0.003588 seconds
+  Import took 0.007431 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2384.
+Total: 2.192200 ms (FindLiveObjects: 0.292200 ms CreateObjectMapping: 0.085400 ms MarkObjects: 1.706500 ms  DeleteObjects: 0.106200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2388.
+Total: 2.740400 ms (FindLiveObjects: 0.458300 ms CreateObjectMapping: 0.292000 ms MarkObjects: 1.867700 ms  DeleteObjects: 0.119800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001568 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2392.
+Total: 2.352200 ms (FindLiveObjects: 0.408700 ms CreateObjectMapping: 0.081900 ms MarkObjects: 1.756700 ms  DeleteObjects: 0.103400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2396.
+Total: 2.010100 ms (FindLiveObjects: 0.174600 ms CreateObjectMapping: 0.061600 ms MarkObjects: 1.671200 ms  DeleteObjects: 0.101600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000995 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2400.
+Total: 2.248600 ms (FindLiveObjects: 0.208700 ms CreateObjectMapping: 0.076900 ms MarkObjects: 1.861000 ms  DeleteObjects: 0.100800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2404.
+Total: 2.227100 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.102000 ms MarkObjects: 1.770800 ms  DeleteObjects: 0.124900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2408.
+Total: 2.225000 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.090600 ms MarkObjects: 1.788600 ms  DeleteObjects: 0.113600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 2.074600 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.074800 ms MarkObjects: 1.611600 ms  DeleteObjects: 0.103400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2416.
+Total: 4.098400 ms (FindLiveObjects: 0.739200 ms CreateObjectMapping: 0.212200 ms MarkObjects: 2.682400 ms  DeleteObjects: 0.461600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001018 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 2.969900 ms (FindLiveObjects: 0.730800 ms CreateObjectMapping: 0.183100 ms MarkObjects: 1.934100 ms  DeleteObjects: 0.119900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2424.
+Total: 2.180200 ms (FindLiveObjects: 0.236000 ms CreateObjectMapping: 0.101200 ms MarkObjects: 1.731700 ms  DeleteObjects: 0.109800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2428.
+Total: 2.136200 ms (FindLiveObjects: 0.339500 ms CreateObjectMapping: 0.100400 ms MarkObjects: 1.582200 ms  DeleteObjects: 0.112700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2432.
+Total: 2.180600 ms (FindLiveObjects: 0.336700 ms CreateObjectMapping: 0.188100 ms MarkObjects: 1.550000 ms  DeleteObjects: 0.104200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001335 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2436.
+Total: 2.312000 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.084900 ms MarkObjects: 1.842800 ms  DeleteObjects: 0.104200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2440.
+Total: 2.293700 ms (FindLiveObjects: 0.366200 ms CreateObjectMapping: 0.111400 ms MarkObjects: 1.700900 ms  DeleteObjects: 0.113700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001018 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2444.
+Total: 4.539900 ms (FindLiveObjects: 0.575400 ms CreateObjectMapping: 0.158000 ms MarkObjects: 3.693100 ms  DeleteObjects: 0.111100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2448.
+Total: 2.792900 ms (FindLiveObjects: 0.713000 ms CreateObjectMapping: 0.201300 ms MarkObjects: 1.770500 ms  DeleteObjects: 0.105600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.1 MB.
 System memory in use after: 89.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2407.
-Total: 2.421600 ms (FindLiveObjects: 0.286700 ms CreateObjectMapping: 0.185800 ms MarkObjects: 1.834100 ms  DeleteObjects: 0.112900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2452.
+Total: 2.338000 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.132800 ms MarkObjects: 1.708300 ms  DeleteObjects: 0.113900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter2D
+This message parameter has to be of type: Collider2D
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2456.
+Total: 3.220500 ms (FindLiveObjects: 0.313000 ms CreateObjectMapping: 0.117100 ms MarkObjects: 2.657100 ms  DeleteObjects: 0.131600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
