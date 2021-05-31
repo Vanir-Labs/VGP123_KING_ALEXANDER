@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - HeadShot
   - Projectile
+  - PlayerProjectile
   layers:
   - Default
   - TransparentFX

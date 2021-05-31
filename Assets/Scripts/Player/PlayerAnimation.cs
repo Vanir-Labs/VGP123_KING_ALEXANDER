@@ -60,7 +60,10 @@ public class PlayerAnimation : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W))
                 anim.Play("Jump");
         }
-
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+                anim.Play("Jump");
+        }
     }
 
 }
