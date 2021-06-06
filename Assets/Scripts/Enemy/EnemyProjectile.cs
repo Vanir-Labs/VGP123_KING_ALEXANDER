@@ -9,22 +9,22 @@ using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour
 {
-    var bulletPrefab : Rigidbody;
-    var bulletSpeed : float = 10;
-    private var target : Transform;
+    int Rigidbody2D bulletPrefab;
+    int bulletSpeed = 5f;
+    private int Transform target;
 
-    void OnTriggerEnter(otherCollider : Collider)
+    void OnTriggerEnter(Player : Collider)
     {
-        if (otherCollider.CompareTag("Player"))
+        if (Player.CompareTag("Player"))
         {
-            target = otherCollider.transform;
+            target = Player.transform;
             Fire();
         }
     }
 
-    void OnTriggerExit(otherCollider : Collider)
+    void OnTriggerExit(Player : Collider)
     {
-        if (otherCollider.CompareTag("Player"))
+        if (Player.CompareTag("Player"))
         {
             target = null;
             StopCoroutine();
@@ -46,6 +46,7 @@ public class EnemyProjectile : MonoBehaviour
             bullet.velocity = transform.forward * bulletSpeed;
         }
     }
-//End
+    //End
 }
+
 */

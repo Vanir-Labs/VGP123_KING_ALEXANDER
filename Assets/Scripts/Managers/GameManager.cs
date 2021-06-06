@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     }
 
     public int maxLives = 3;
+    public int Health = 3;
+    public int minHealth = 1;
 
     int _score = 0;
     public int score
@@ -72,18 +74,39 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        /*
+                if (Input.GetKeyDown(KeyCode.Escape))
+                {
+                    if (SceneManager.GetActiveScene().name == "gameover")
+                        SceneManager.LoadScene("mainmenu");
+                    else if (SceneManager.GetActiveScene().name == "mainmenu")
+                        SceneManager.LoadScene("level_1");
+
+                }
+        */
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (SceneManager.GetActiveScene().name == "gameover")
                 SceneManager.LoadScene("mainmenu");
-            else if (SceneManager.GetActiveScene().name == "mainmenu")
+            if (SceneManager.GetActiveScene().name == "mainmenu")
                 SceneManager.LoadScene("level_1");
-
+            if (SceneManager.GetActiveScene().name == "level_1")
+                SceneManager.LoadScene("mainmenu");
         }
 
         if (Input.GetKeyDown(KeyCode.Backspace))
-            QuitGame();
-    }
+        {
+//          QuitGame();
+            SceneManager.LoadScene("mainmenu");
+        }
+
+        if (Health <= minHealth)
+        {
+            SceneManager.LoadScene("gameover");
+        }
+
+    }//End of Update
 
     public void QuitGame()
     {
@@ -100,6 +123,7 @@ public class GameManager : MonoBehaviour
 
     public void SpawnPlayer(Transform spawnLocation)
     {
+/*
         CameraFollow mainCamera = FindObjectOfType<CameraFollow>();
 
         if (mainCamera)
@@ -111,10 +135,22 @@ public class GameManager : MonoBehaviour
         {
             SpawnPlayer(spawnLocation);
         }
+*/
     }
 
     public void Respawn()
     {
         playerInstance.transform.position = currentLevel.spawnLocation.position;
     }
+
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.tag == "OutBounds")
+        {
+//            GameManager.Health - 99999;
+            
+        }
+
+    }
+//End
 }

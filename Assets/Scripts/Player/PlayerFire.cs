@@ -11,8 +11,8 @@ public class PlayerFire : MonoBehaviour
     public Transform spawnPointLeft;
     public Transform spawnPointRight;
 
-    public float projectileSpeed;
     public Projectile Bullet;
+    public float projectileSpeed;
 
     // Start is called before the first frame update
     void Start()
