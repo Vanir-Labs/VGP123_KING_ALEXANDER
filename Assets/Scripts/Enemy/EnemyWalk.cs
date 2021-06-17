@@ -42,6 +42,34 @@ public class EnemyWalk : MonoBehaviour
                     rb.velocity = new Vector2(speed, rb.velocity.y);
                 }
             }
+
+        /*
+            switch (direction)
+            {
+                case -1:
+                    // Moving Left
+                    if (transform.position.x > minDist)
+                    {
+                        GetComponent<Rigidbody2D>().velocity = new Vector2(-movingSpeed, GetComponent<Rigidbody2D>().velocity.y);
+                    }
+                    else
+                    {
+                        direction = 1;
+                    }
+                    break;
+                case 1:
+                    //Moving Right
+                    if (transform.position.x < maxDist)
+                    {
+                        GetComponent<Rigidbody2D>().velocity = new Vector2(movingSpeed, GetComponent<Rigidbody2D>().velocity.y);
+                    }
+                    else
+                    {
+                        direction = -1;
+                    }
+                    break;
+            }
+        */
     }
 
     private void OnTriggerEnter2D(Collider2D col)

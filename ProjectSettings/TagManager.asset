@@ -11,6 +11,7 @@ TagManager:
   - Projectile
   - PlayerProjectile
   - OutBounds
+  - EdgeMarker
   layers:
   - Default
   - TransparentFX

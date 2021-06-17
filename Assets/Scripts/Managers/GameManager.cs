@@ -123,7 +123,7 @@ public class GameManager : MonoBehaviour
 
     public void SpawnPlayer(Transform spawnLocation)
     {
-/*
+
         CameraFollow mainCamera = FindObjectOfType<CameraFollow>();
 
         if (mainCamera)
@@ -135,7 +135,7 @@ public class GameManager : MonoBehaviour
         {
             SpawnPlayer(spawnLocation);
         }
-*/
+
     }
 
     public void Respawn()
