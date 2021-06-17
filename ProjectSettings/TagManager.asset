@@ -12,6 +12,7 @@ TagManager:
   - PlayerProjectile
   - OutBounds
   - EdgeMarker
+  - spawnLocation
   layers:
   - Default
   - TransparentFX
