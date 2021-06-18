@@ -17,7 +17,6 @@ public class GameManager : MonoBehaviour
     public int maxLives = 3;
     public int Health = 3;
     public int minHealth = 1;
-    public AudioSource bgAudio;
 
     int _score = 0;
     public int score
@@ -60,7 +59,7 @@ public class GameManager : MonoBehaviour
     public GameObject playerPrefab;
     public LevelManager currentLevel;
     
-    void Start()
+    void Awake()
     {
         if (instance)
         {
@@ -71,11 +70,7 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(this);
         }
-
-    {
-//      audioSource.Play();
     }
-}
 
     void Update()
     {
@@ -104,8 +99,11 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Backspace))
         {
-//          QuitGame();
-            SceneManager.LoadScene("mainmenu");
+            //QuitGame();
+            if (SceneManager.GetActiveScene().name == "level_1")
+                SceneManager.LoadScene("mainmenu");
+            if (SceneManager.GetActiveScene().name == "mainmenu")
+                SceneManager.LoadScene("credits");
         }
 
         if (Health <= minHealth)

@@ -11,17 +11,13 @@ using UnityEngine;
 {
     public float enHealth = 3;
     public Rigidbody2D enSprite;
-    private Animator anima;
+    private Animator anim;
     void Start()
     {
-        anima = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
     public void TakeDamage(float damage)
     {
-        if (enHealth <= 0)
-        {
-            return;
-        }
         enHealth -= damage;
         if (enHealth <= 0)
         {
@@ -30,6 +26,6 @@ using UnityEngine;
     }
     private void Death()
     {
-        anima.SetTrigger("enDie");
+        anim.SetTrigger("enDie");
     }
 }
