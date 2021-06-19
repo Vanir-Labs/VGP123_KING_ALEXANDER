@@ -31,7 +31,7 @@ public class EnemyWalk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!anim.GetBool("isDie") && !anim.GetBool("isHit")); //Animations when die and when hit
+        if (!anim.GetBool("isDead") && !anim.GetBool("isHit")); //Animations when die and when hit
             {
                 if (spr.flipX)
                 {
@@ -69,6 +69,13 @@ public class EnemyWalk : MonoBehaviour
                     }
                     break;
             }
+        */
+        /*
+        if (!anim.GetBool("isDead") && !anim.GetBool("isHit"));
+                if (speed < 0)
+                {
+                    spr.gameObject.tag == "enMoving");
+                }
         */
     }
 

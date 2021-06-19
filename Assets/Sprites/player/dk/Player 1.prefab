@@ -276,7 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPointLeft: {fileID: 8681484681445773578}
   spawnPointRight: {fileID: 8681484680812242454}
-  Bullet: {fileID: 0}
+  Bullet: {fileID: 7924378679661830467, guid: 3686142177473ca42b04b663d79eae2d, type: 3}
   projectileSpeed: 3
 --- !u!114 &8681484682293177137
 MonoBehaviour:
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f6d13a4127e42449d0fce1b84b70ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 5310691461489599316, guid: fbba8803e3cfb1b4692f0bd7b7ee0552, type: 3}
   attackTime: 1
   coolDown: 1
 --- !u!114 &8681484682293177148
